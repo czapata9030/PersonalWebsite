@@ -331,4 +331,15 @@ input:checked + .slider:before {
   -webkit-transition: .4s;
   transition: .4s;
 }
+
+.dark-background-button {
+  background-color: #181818 !important;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.dark-background-button:hover {
+  background-color: #f3f3f3ff;
+  color: white !important;
+}
 /* .navbar-nav > li > .dropdown-menu { background-color: #FF0000; } */

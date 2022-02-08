@@ -28,6 +28,10 @@ function darkmodeAB() {
         var text = document.getElementById("text3");
         text.classList.toggle("dark-background");
         text.classList.toggle("dark-text");
+        let buttons = document.getElementsByClassName("button-Q");
+        for(let i = 0; i < buttons.length; i++ ) {
+            buttons[i].classList.toggle("dark-background-button");
+        }
 }
 
 window.onload = function(){
